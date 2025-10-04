@@ -1,0 +1,120 @@
+# Site metadata
+name: "Enge NOUADJE FOTSO"
+title: "Data Scientist & AI Engineer"
+tagline: "Passionné par l'IA appliquée et l'industrialisation des modèles"
+description: "Portfolio professionnel d'Enge NOUADJE FOTSO, Data Scientist spécialisé en Machine Learning, Deep Learning et technologies Cloud"
+
+# Contact information
+contact:
+  email: "e_nouadje@orange.fr"
+  phone: "+33752632817"
+  linkedin: "https://www.linkedin.com/in/enge-nouadje-fotso/"
+  github: "https://github.com/ndje-enge"
+
+# Social media
+social:
+  linkedin:
+    url: "https://www.linkedin.com/in/enge-nouadje-fotso/"
+    icon: "fab fa-linkedin"
+    label: "LinkedIn"
+  github:
+    url: "https://github.com/ndje-enge"
+    icon: "fab fa-github"
+    label: "GitHub"
+  email:
+    url: "mailto:e_nouadje@orange.fr"
+    icon: "fas fa-envelope"
+    label: "Email"
+
+# Navigation
+navigation:
+  - title: "Accueil"
+    url: "/"
+    icon: "fas fa-home"
+  - title: "À propos"
+    url: "/#about"
+    icon: "fas fa-user"
+  - title: "Projets"
+    url: "/#projects"
+    icon: "fas fa-code"
+  - title: "Compétences"
+    url: "/#skills"
+    icon: "fas fa-cogs"
+  - title: "Contact"
+    url: "/#contact"
+    icon: "fas fa-envelope"
+
+# Skills categories
+skills:
+  languages:
+    title: "Langages de programmation"
+    icon: "fas fa-code"
+    items:
+      - "Python"
+      - "SQL"
+      - "C#"
+      - "C++"
+  
+  machine_learning:
+    title: "Machine Learning"
+    icon: "fas fa-brain"
+    items:
+      - "PyTorch"
+      - "TensorFlow"
+      - "Scikit-Learn"
+      - "XGBoost"
+      - "YOLO"
+      - "OpenCV"
+  
+  ai_agents:
+    title: "LLMs & Agents IA"
+    icon: "fas fa-robot"
+    items:
+      - "Transformers"
+      - "LangChain"
+      - "Mistral"
+      - "CUDA"
+      - "FAISS"
+      - "RAG"
+      - "PEFT"
+  
+  databases:
+    title: "Bases de données"
+    icon: "fas fa-database"
+    items:
+      - "MySQL"
+      - "Neo4j"
+      - "PostgreSQL"
+      - "MongoDB"
+      - "ElasticSearch"
+      - "Cassandra"
+  
+  cloud_devops:
+    title: "Cloud & DevOps"
+    icon: "fas fa-cloud"
+    items:
+      - "GCP Kubernetes"
+      - "Docker"
+      - "CI/CD"
+      - "Git"
+      - "Flask"
+      - "Django"
+      - "Streamlit"
+      - "Azure AI Foundry"
+  
+  modeling:
+    title: "Modélisation"
+    icon: "fas fa-chart-line"
+    items:
+      - "Mathématiques"
+      - "Physique"
+      - "Sciences de l'ingénieur"
+
+# Soft skills
+soft_skills:
+  - "Communication : Vulgarisation d'analyses et adaptation du discours à des audiences variées"
+  - "Traduction : Compréhension et traduction d'enjeux business complexes en solutions techniques"
+  - "Amélioration continue : Capacité à challenger les solutions existantes et recevoir du feedback"
+  - "Collaboration : Esprit d'équipe et collaboration efficace avec ingénieurs data IA et experts métier"
+  - "Agilité : Orientation résultats, pragmatisme et capacité à travailler en mode agile"
+

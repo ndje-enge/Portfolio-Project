@@ -1,0 +1,44 @@
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>{{ site.title }}</h3>
+                <p>{{ site.description }}</p>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> {{ site.email }}</p>
+                    <p><i class="fas fa-phone"></i> {{ site.phone }}</p>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Réseaux</h4>
+                <div class="social-links">
+                    <a href="{{ site.social.linkedin }}" target="_blank" rel="noopener" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="{{ site.social.github }}" target="_blank" rel="noopener" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="mailto:{{ site.social.email }}" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; {{ 'now' | date: "%Y" }} {{ site.author }}. Tous droits réservés.</p>
+        </div>
+    </div>
+</footer>
+
+<!-- Back to Top Button -->
+<button id="back-to-top" class="back-to-top" aria-label="Retour en haut">
+    <i class="fas fa-chevron-up"></i>
+</button>
+
+

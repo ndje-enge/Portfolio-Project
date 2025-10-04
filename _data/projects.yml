@@ -1,0 +1,101 @@
+# Featured projects
+featured:
+  - title: "Détection de violence en vidéo"
+    subtitle: "Computer Vision en temps réel sur vidéos de surveillance"
+    description: "Système de Computer Vision en temps réel pour la détection de violence dans les vidéos de surveillance. Utilisation d'OpenCV avec optical flow de Farneback et modèles de Machine Learning."
+    image: "img/projects/violence-detection.jpg"
+    tools: ["OpenCV", "PyTorch", "Computer Vision", "ML"]
+    links:
+      - name: "GitHub"
+        url: "https://github.com/ndje-enge/Violence-Detection-Project"
+        icon: "fab fa-github"
+    category: "Computer Vision"
+    status: "completed"
+    date: "2024-01-15"
+
+  - title: "Prévision de ventes (Olist)"
+    subtitle: "Modèles statistiques pour prévoir la demande de produits"
+    description: "Modèles statistiques (ARIMA, Auto-ARIMA) pour prévoir la demande de produits. Analyse de séries temporelles et optimisation des prévisions commerciales."
+    image: "img/projects/sales-forecasting.jpg"
+    tools: ["Python", "pandas", "statsmodels", "ARIMA"]
+    links:
+      - name: "GitHub"
+        url: "https://github.com/ndje-enge/Demand-forcasting"
+        icon: "fab fa-github"
+    category: "Time Series"
+    status: "completed"
+    date: "2024-01-10"
+
+  - title: "Détection de déchets plastiques"
+    subtitle: "YOLO + CLIP pour la détection de déchets plastiques dans l'océan"
+    description: "YOLO + CLIP pour la détection de déchets plastiques dans l'océan sur images surface/sous-marine. Dataset de ~8k images avec une précision de 81%."
+    image: "img/projects/marine-pollution.jpg"
+    tools: ["YOLOv5", "OpenCV", "CLIP", "Computer Vision"]
+    links:
+      - name: "Publication"
+        url: "https://app.readytensor.ai/publications/marine-pollution-detection-nts43wbWFDQM"
+        icon: "fas fa-external-link-alt"
+    category: "Computer Vision"
+    status: "completed"
+    date: "2024-01-05"
+
+  - title: "Prédiction de fraude bancaire AWS"
+    subtitle: "Multi-Layer Perceptron Classifier déployé sur AWS SageMaker"
+    description: "Multi-Layer Perceptron Classifier pour la prédiction de faillite d'entreprises taïwanaises. Déployé sur AWS SageMaker avec API REST."
+    image: "img/projects/bankruptcy-prediction.jpg"
+    tools: ["AWS SageMaker", "AWS S3", "Python", "Scikit-learn"]
+    links:
+      - name: "GitHub"
+        url: "https://github.com/ndje-enge/AWS-Bankruptcy-prediction"
+        icon: "fab fa-github"
+    category: "Machine Learning"
+    status: "completed"
+    date: "2023-12-20"
+
+  - title: "Reconnaissance d'entités nommées (NER)"
+    subtitle: "Collaboration avec le CNAM : NER dans des textes historiques"
+    description: "Projet en collaboration avec le CNAM : exploration de la NER dans des textes historiques pour faciliter leur interprétation par des historiens."
+    image: "img/projects/ner-project.jpg"
+    tools: ["spaCy", "HuggingFace CamemBERT", "BeautifulSoup", "Transformers"]
+    links:
+      - name: "GitHub"
+        url: "https://github.com/ndje-enge/Named-entity-recognition-Project"
+        icon: "fab fa-github"
+    category: "NLP"
+    status: "completed"
+    date: "2023-12-15"
+
+  - title: "Déploiement Kubernetes Flask"
+    subtitle: "Application microservices avec CI/CD sur Google Kubernetes Engine"
+    description: "Application web de réservation de voyage en architecture microservices (Flask + Kubernetes) avec déploiement automatisé via GitLab CI/CD sur Google Kubernetes Engine."
+    image: "img/projects/kubernetes-deployment.jpg"
+    tools: ["Python", "Docker", "GCP", "Kubernetes", "GitLab", "SQLite"]
+    links:
+      - name: "GitLab"
+        url: "https://gitlab.com/ndje-enge-group/docker-project"
+        icon: "fab fa-gitlab"
+    category: "DevOps"
+    status: "completed"
+    date: "2023-12-10"
+
+# Project categories
+categories:
+  - name: "Computer Vision"
+    icon: "fas fa-eye"
+    color: "#3B82F6"
+  - name: "Machine Learning"
+    icon: "fas fa-brain"
+    color: "#10B981"
+  - name: "NLP"
+    icon: "fas fa-language"
+    color: "#F59E0B"
+  - name: "Time Series"
+    icon: "fas fa-chart-line"
+    color: "#8B5CF6"
+  - name: "DevOps"
+    icon: "fas fa-cogs"
+    color: "#EF4444"
+  - name: "Web Development"
+    icon: "fas fa-code"
+    color: "#06B6D4"
+

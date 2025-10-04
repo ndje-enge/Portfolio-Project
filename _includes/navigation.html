@@ -1,0 +1,24 @@
+<nav class="navbar" id="navbar">
+    <div class="nav-container">
+        <div class="nav-logo">
+            <a href="{{ '/' | relative_url }}">
+                <img src="{{ site.logo | relative_url }}" alt="{{ site.title }}" class="logo-img">
+                <span class="logo-text">{{ site.title }}</span>
+            </a>
+        </div>
+        
+        <div class="nav-menu" id="nav-menu">
+            {% for item in site.navigation %}
+            <a href="{{ item.url | relative_url }}" class="nav-link">{{ item.title }}</a>
+            {% endfor %}
+        </div>
+        
+        <div class="nav-toggle" id="nav-toggle">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </div>
+</nav>
+
+

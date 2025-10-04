@@ -1,0 +1,44 @@
+{
+  "name": "enge-nouadje-portfolio",
+  "version": "1.0.0",
+  "description": "Portfolio professionnel d'Enge NOUADJE FOTSO - Data Scientist & AI Engineer",
+  "main": "index.js",
+  "scripts": {
+    "start": "bundle exec jekyll serve",
+    "build": "bundle exec jekyll build",
+    "serve": "bundle exec jekyll serve --livereload",
+    "clean": "bundle exec jekyll clean",
+    "doctor": "bundle exec jekyll doctor",
+    "install-deps": "bundle install",
+    "update-deps": "bundle update"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndje-enge/enge.nouadje_Portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "data-science",
+    "machine-learning",
+    "ai",
+    "jekyll",
+    "github-pages"
+  ],
+  "author": "Enge NOUADJE FOTSO",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ndje-enge/enge.nouadje_Portfolio/issues"
+  },
+  "homepage": "https://ndje-enge.github.io/enge.nouadje_Portfolio/",
+  "devDependencies": {
+    "autoprefixer": "^10.4.16",
+    "cssnano": "^6.0.1",
+    "postcss": "^8.4.32",
+    "postcss-cli": "^11.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "ruby": ">=3.1.0"
+  }
+}
+

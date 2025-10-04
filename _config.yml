@@ -1,0 +1,93 @@
+# Site Configuration
+title: "Enge NOUADJE FOTSO"
+logo: img/nny.jpg
+description: "Data Scientist & AI Engineer - Portfolio professionnel d'Enge NOUADJE FOTSO"
+author: "Enge NOUADJE FOTSO"
+email: "e_nouadje@orange.fr"
+phone: "+33752632817"
+linkedin: "https://www.linkedin.com/in/enge-nouadje-fotso/"
+github: "https://github.com/ndje-enge"
+url: "https://ndje-enge.github.io"
+baseurl: "/enge.nouadje_Portfolio"
+
+# Jekyll Configuration
+theme: minima
+lang: fr
+timezone: Europe/Paris
+encoding: utf-8
+markdown: kramdown
+highlighter: rouge
+permalink: /:title/
+
+# Site Settings
+show_downloads: true
+show_excerpts: true
+excerpt_separator: "<!--more-->"
+
+# Navigation
+navigation:
+  - title: "Accueil"
+    url: "/"
+  - title: "À propos"
+    url: "/#about"
+  - title: "Projets"
+    url: "/#projects"
+  - title: "Compétences"
+    url: "/#skills"
+  - title: "Contact"
+    url: "/#contact"
+
+# Social Media
+social:
+  linkedin: "https://www.linkedin.com/in/enge-nouadje-fotso/"
+  github: "https://github.com/ndje-enge"
+  email: "e_nouadje@orange.fr"
+
+# SEO
+seo:
+  title: "Enge NOUADJE FOTSO - Data Scientist & AI Engineer"
+  description: "Portfolio professionnel d'Enge NOUADJE FOTSO, Data Scientist spécialisé en Machine Learning, Deep Learning et technologies Cloud"
+  keywords: "Data Science, Machine Learning, Deep Learning, AI, Python, PyTorch, TensorFlow, Cloud, AWS, Azure"
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .github/
+  - README.md
+  - .gitignore
+  - .DS_Store
