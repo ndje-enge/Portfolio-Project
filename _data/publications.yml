@@ -8,9 +8,9 @@ publications:
     date: "2024"
     type: "Rapport de stage"
     category: "NLP"
-    pdf: "assets/pdfs/banque-france-nlp-paper.pdf"
-    abstract: "Ce rapport présente une étude approfondie des méthodes de Natural Language Processing appliquées à l'automatisation du reporting LCB-FT. Nous explorons l'utilisation de modèles de deep learning, notamment BERT, Mistral et des techniques de RAG (Retrieval-Augmented Generation) pour analyser automatiquement les articles de presse et détecter les signaux de blanchiment de capitaux et de financement du terrorisme."
-    keywords: ["NLP", "LCB-FT", "Deep Learning", "BERT", "Mistral", "RAG", "Banque de France"]
+    pdf: "assets/pdfs/Papier Scientifique Stage de fin d'étude BDF.pdf"
+    abstract: "Ce papier scientifique présente une étude approfondie des méthodes de Natural Language Processing appliquées à l'automatisation du reporting LCB-FT."
+    keywords: ["NLP", "LCB-FT", "Deep Learning", "BERT", "Mistral", "RAG"]
     technologies:
       - "Python"
       - "Transformers"
