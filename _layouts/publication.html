@@ -1,0 +1,272 @@
+---
+layout: default
+---
+
+<div class="publication-page">
+    <div class="container">
+        <!-- Publication Header -->
+        <div class="publication-header">
+            <div class="publication-meta">
+                <span class="publication-type">{{ page.type }}</span>
+                <span class="publication-date">{{ page.date }}</span>
+                <span class="publication-category">{{ page.category }}</span>
+            </div>
+            <h1 class="publication-title">{{ page.title }}</h1>
+            <h2 class="publication-subtitle">{{ page.subtitle }}</h2>
+            
+            <div class="publication-authors">
+                <h3>Auteurs :</h3>
+                <ul>
+                    {% for author in page.authors %}
+                    <li>{{ author }}</li>
+                    {% endfor %}
+                </ul>
+            </div>
+            
+            <div class="publication-institution">
+                <strong>Institution :</strong> {{ page.institution }}
+            </div>
+        </div>
+
+        <!-- Publication Actions -->
+        <div class="publication-actions">
+            {% if page.pdf %}
+            <a href="{{ page.pdf | relative_url }}" target="_blank" class="btn btn-primary">
+                <i class="fas fa-file-pdf"></i>
+                Télécharger le PDF
+            </a>
+            {% endif %}
+            
+            <a href="{{ '/' | relative_url }}" class="btn btn-secondary">
+                <i class="fas fa-arrow-left"></i>
+                Retour au portfolio
+            </a>
+        </div>
+
+        <!-- Publication Content -->
+        <div class="publication-content">
+            <!-- Abstract -->
+            {% if page.abstract %}
+            <section class="publication-section">
+                <h3>Résumé</h3>
+                <p class="abstract">{{ page.abstract }}</p>
+            </section>
+            {% endif %}
+
+            <!-- Keywords -->
+            {% if page.keywords %}
+            <section class="publication-section">
+                <h3>Mots-clés</h3>
+                <div class="keywords">
+                    {% for keyword in page.keywords %}
+                    <span class="keyword">{{ keyword }}</span>
+                    {% endfor %}
+                </div>
+            </section>
+            {% endif %}
+
+            <!-- Technologies -->
+            {% if page.technologies %}
+            <section class="publication-section">
+                <h3>Technologies utilisées</h3>
+                <div class="technologies">
+                    {% for tech in page.technologies %}
+                    <span class="tech-tag">{{ tech }}</span>
+                    {% endfor %}
+                </div>
+            </section>
+            {% endif %}
+
+            <!-- Content -->
+            <section class="publication-section">
+                <h3>Contenu</h3>
+                <div class="publication-body">
+                    {{ content }}
+                </div>
+            </section>
+        </div>
+    </div>
+</div>
+
+<style>
+.publication-page {
+    padding: 2rem 0;
+    min-height: 100vh;
+}
+
+.publication-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 1rem;
+}
+
+.publication-meta {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    flex-wrap: wrap;
+}
+
+.publication-type,
+.publication-date,
+.publication-category {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.publication-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 1rem 0;
+    line-height: 1.2;
+}
+
+.publication-subtitle {
+    font-size: 1.3rem;
+    font-weight: 400;
+    opacity: 0.9;
+    margin-bottom: 2rem;
+}
+
+.publication-authors,
+.publication-institution {
+    margin: 1rem 0;
+}
+
+.publication-authors h3 {
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.publication-authors ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.publication-authors li {
+    margin: 0.25rem 0;
+}
+
+.publication-actions {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+
+.publication-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.publication-section {
+    margin-bottom: 2.5rem;
+    padding: 1.5rem;
+    background: #f8f9fa;
+    border-radius: 0.5rem;
+    border-left: 4px solid #667eea;
+}
+
+.publication-section h3 {
+    color: #333;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.abstract {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+}
+
+.keywords {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.keyword {
+    background: #667eea;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.tech-tag {
+    background: #10b981;
+    color: white;
+    padding: 0.4rem 0.8rem;
+    border-radius: 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+.publication-body {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+.publication-body h1,
+.publication-body h2,
+.publication-body h3,
+.publication-body h4,
+.publication-body h5,
+.publication-body h6 {
+    color: #333;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.publication-body p {
+    margin-bottom: 1rem;
+}
+
+.publication-body ul,
+.publication-body ol {
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+}
+
+.publication-body li {
+    margin-bottom: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .publication-title {
+        font-size: 2rem;
+    }
+    
+    .publication-subtitle {
+        font-size: 1.1rem;
+    }
+    
+    .publication-meta {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .publication-actions {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+</style>

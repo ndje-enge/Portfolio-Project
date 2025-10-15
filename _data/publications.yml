@@ -1,0 +1,42 @@
+# Publications scientifiques et rapports
+publications:
+  - title: "Méthodes de NLP pour l'automatisation du reporting LCB-FT"
+    subtitle: "Application des techniques de Natural Language Processing"
+    description: "Papier scientifique sur l'application des techniques de Natural Language Processing pour l'automatisation du reporting de lutte contre le blanchiment de capitaux et le financement du terrorisme à la Banque de France."
+    authors: ["Enge NOUADJE FOTSO"]
+    institution: "Banque de France"
+    date: "2024"
+    type: "Rapport de stage"
+    category: "NLP"
+    pdf: "assets/pdfs/banque-france-nlp-paper.pdf"
+    abstract: "Ce rapport présente une étude approfondie des méthodes de Natural Language Processing appliquées à l'automatisation du reporting LCB-FT. Nous explorons l'utilisation de modèles de deep learning, notamment BERT, Mistral et des techniques de RAG (Retrieval-Augmented Generation) pour analyser automatiquement les articles de presse et détecter les signaux de blanchiment de capitaux et de financement du terrorisme."
+    keywords: ["NLP", "LCB-FT", "Deep Learning", "BERT", "Mistral", "RAG", "Banque de France"]
+    technologies:
+      - "Python"
+      - "Transformers"
+      - "OpenAI API"
+      - "Mistral"
+      - "BERT"
+      - "RAG"
+      - "FAISS"
+      - "Django"
+    status: "completed"
+    featured: true
+
+# Catégories de publications
+categories:
+  - name: "NLP"
+    icon: "fas fa-language"
+    color: "#F59E0B"
+  - name: "Machine Learning"
+    icon: "fas fa-brain"
+    color: "#10B981"
+  - name: "Computer Vision"
+    icon: "fas fa-eye"
+    color: "#3B82F6"
+  - name: "Rapport de stage"
+    icon: "fas fa-file-alt"
+    color: "#8B5CF6"
+  - name: "Recherche"
+    icon: "fas fa-microscope"
+    color: "#EF4444"

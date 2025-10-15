@@ -13,6 +13,7 @@ experiences:
       - "Crawling (Crawl4AI, Selenium), NLP avancé (Transformers, OpenAI API, Mistral, BERT, RAG, FAISS)"
       - "Interface Django pour la mise à disposition du projet"
       - "Prise en main d'Azure AI Foundry"
+      - "Rédaction d'un papier scientifique sur les méthodes de NLP appliquées"
     technologies:
       - "Python"
       - "Django"
@@ -29,6 +30,13 @@ experiences:
       - "Crawling web"
       - "Développement full-stack"
       - "Cloud computing"
+      - "Rédaction scientifique"
+    publications:
+      - title: "Méthodes de NLP pour l'automatisation du reporting LCB-FT"
+        description: "Papier scientifique sur l'application des techniques de Natural Language Processing pour l'automatisation du reporting de lutte contre le blanchiment de capitaux et le financement du terrorisme"
+        pdf: "assets/pdfs/banque-france-nlp-paper.pdf"
+        date: "2024"
+        type: "Rapport de stage"
 
   - title: "Stagiaire Data Scientist"
     company: "Safran Aircraft Engines"

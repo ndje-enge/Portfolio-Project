@@ -32,6 +32,8 @@ navigation:
     url: "/#about"
   - title: "Projets"
     url: "/#projects"
+  - title: "Publications"
+    url: "/publications/"
   - title: "Compétences"
     url: "/#skills"
   - title: "Contact"
