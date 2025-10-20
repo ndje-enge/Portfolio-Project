@@ -3,7 +3,7 @@
 <div align="center">
   <img src="img/nny.jpg" alt="Enge NOUADJE FOTSO" width="200" style="border-radius: 50%;">
   
-  <h2>Data Scientist & AI Engineer</h2>
+  <h2>Data & AI Engineer</h2>
   
   [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/enge-nouadje-fotso/)
   [![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/ndje-enge)
